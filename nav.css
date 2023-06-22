@@ -16,7 +16,7 @@ nav {
     padding: 0 15%;
     height: 75px;
     line-height: 75px;
-    background: #404040;
+    background: rgba(234, 156, 10, 0.883);
 }
 
 nav .navbar-brand {

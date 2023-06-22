@@ -33,15 +33,21 @@ body{
   color: aliceblue;
   background-color: rgb(44, 42, 42);
   width: 100%;
-  text-align: center;
   margin-top: 5%; 
  }
  .footer h1{
-  margin-left: 3%;
+  margin-left: 2%;
+ }
+ .footer li{
+  margin-left: 2%;
+ }
+ .social{
+  margin-left: 2%;
  }
 
  .end{
   font-size: 70%;
+  margin-left: 2%;
  }
  main{
   width: 65%;
@@ -55,6 +61,36 @@ body{
   width: 100%;
   position: absolute;
   transition: 1s;
+ }
+
+ #para{
+  width: 15%;
+ }
+
+ .allpoke{
+  justify-content: center;
+  align-items: center;
+ }
+
+ .squirtle{
+  display: grid;
+  padding: 5%;
+  font-size: large;
+  font-weight: 500;
+ }
+
+ .description{
+  background-image: url(pokeball.png) ;
+  background-size: cover;
+  border-radius: 10%;
+  border: none;
+  padding: 3%;
+  color: rgb(58, 55, 55);
+  transition: 0.5s;
+ }
+ .description:hover{
+  color: black;
+  background-image: url(greyball.jpg);
  }
 
  .nav{

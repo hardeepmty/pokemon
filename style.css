@@ -175,7 +175,7 @@ header ul li a{
 }
 
 .slider{
-  background-image: url(starback.gif);
+  background-image: url(stars.gif);
   background-size: cover;
   display: flex;
   justify-content: center;

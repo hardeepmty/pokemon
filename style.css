@@ -40,6 +40,11 @@ header ul{
 
 header ul li{
   list-style: none;
+  transition: 0.5s;
+}
+
+header ul li:hover{
+  transform: translateY(-15px);
 }
 
 header ul li a{
@@ -175,7 +180,7 @@ header ul li a{
 }
 
 .slider{
-  background-image: url(stars.gif);
+  background-image: url(starback.gif);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -316,3 +321,28 @@ left: 68%;
 width: 25%;
 height: 500px;
 }
+
+.warn{
+  color: #111;
+  position: absolute;
+  bottom: 90%;
+}
+
+@media (max-width:900px){
+
+  .warn{
+    display: block;
+  }
+  body{
+    display: none;
+  } 
+}
+
+@media (min-width: 901px){
+  .warn{
+    display: none;
+  }
+}
+
+
+

@@ -24,9 +24,7 @@
     --type-steel: #B8B8D0;
     --type-fairy: #F0B6BC;
 }
-.nav{
-    background-color:#170a85;
-}
+
 
 * {
    
@@ -48,7 +46,7 @@ button {
 
 body {
     min-height: 100vh;
-    background-color: #4494e7;
+    background-color: #7b7d7e;
 }
 
 header {

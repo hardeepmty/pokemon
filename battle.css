@@ -1,20 +1,28 @@
 body {
 font-family: Arial, sans-serif;
 text-align: center;
+background-color: #dbd8d2;
+font-size: 25px;
 }
 
 h1 {
-color: #FF0000;
+color: #282420;
+color: #282420;
+text-shadow: 0 0 10px #e7e3df, 0 0 20px #ebe8e5, 0 0 40px #f5f3f1;
+
 }
 
 #game-container {
 display: flex;
-justify-content: space-between;
+margin-left: 70px;
+margin-right: 70px;
+justify-content: space-evenly;
 margin-top: 30px;
 }
 
 #player-hand, #opponent-hand {
 border: 1px solid #000000;
+justify-content: center;
 padding: 10px;
 width: 300px;
 }
@@ -24,13 +32,19 @@ margin-top: 0;
 }
 
 .card {
-background-color: #EFEFEF;
+background-color: #dbd9d9;
 border: 1px solid #000000;
 height: 400px;
-margin-bottom: 10px;
-width: 90%;
+
 }
 
 #winner {
 font-weight: bold;
+}
+#play-turn{
+    transition: all 0.4s;
+}
+#play-turn:hover{
+transform: scale(1.8);
+    
 }

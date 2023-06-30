@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>new</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remmixicon.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>COVER PAGE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1 class="warn">
-      SORRY!!! This device is not compatible to open this site
-    </h1>
-
-  <header>
-    <a href="#" class="logo">POKEMON</a>
-
-    <ul class="navlist">
-      <li><a href="pokedex.html"></a>Pokedex</li>
-      <li><a href="pokesearch/index.html"></a>Pokesearch</li>
-      <li><a href="battle.html"></a>Pokebattle</li>
-      <li><a href="Mini Game/index.html"></a>Mini Games</li>
-    </ul>
-
-    <div class="bx bx-menu" id="menu-icon"></div>
-  </header>
-
-  <section class="hero">
-     <div class="hero-text">
-      <h5>#1 Hangout Place for Pokefans</h5>
-
-      <h1>Catch'em All !</h1>
-      <p>
-        Join millions of pokefans and trainers worldwide, <br> get every update
-        and play different games!!!
-      </p>
-      <button><a href="#">Official Website</a></button>
-     </div>
-
-     <div class="hero-img">
-      <img src="Bulbasaur.png" width="40%" class="pepsi">
-     </div>
-        
+    <div class="warn">
+      <h1>SORRY! THIS DEVICE IS NOT COMPATIBE TO OPEN THIS SITE</h1>
+    </div>
+          <header>
+        <a href="#"><img src="R.png" width="20%" class="logo"></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="pokedex.html">Pokedex</a></li>
+          <li><a href="pokesearch/index.html">Pokesearch</a></li>
+          <li><a href="battle.html">Battle</a></li>
+          <li><a href="Mini Game/index.html">Games</a></li>
+        </ul>
+      </header>
+      <div class="content">
+         <div class="textbox">
+          <h2>welcome<br><br><span>pokefans!</span></h2>
+          <p>Pokémon (an abbreviation for Pocket Monsters in Japanese) is a Japanese media franchise managed by The Pokémon Company, founded by Nintendo, Game Freak, and Creatures. 
+            The franchise was created by Satoshi Tajiri in 1996, and is centered around fictional creatures called "Pokémon".
+             In Pokémon, Pokémon Trainers are people who catch, train, care for, and battle with Pokémon. The English slogan for the franchise is "Gotta Catch 'Em All!".</p>
+            <a href="#">Official website</a>
+         </div>
+         <div class="imgBox">
+          <img src="Bulbasaur.png" width="90%" class="pepsi">
+         </div>
+      </div>
+      <div class="change">
+        <br>
+        <!-- <h2>Click on any pokemon and see the magic!</h2> -->
+      </div>
+      <br><br>
+      <ul class="thumb">
+        <li><img src="Bulbasaur.png" width="30%" onclick="imgSlider('Bulbasaur.png');changeBgColor('#072d50')"></li>
+        <li><img src="pika3.png" width="30%" onclick="imgSlider('pika3.png');changeBgColor(' #d47629')"></li>
+        <li><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" width="80%" onclick="imgSlider('https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png');changeBgColor('#1e1e1e')"></li>
+      </ul>
+      
      
-   
-  </section>
+      <div class="allpoke">
+      <button onclick="previousPokemon()" class="prev"><h1><<</h1></button>
+      <div class="slider"></div>
+      <button onclick="nextPokemon()" class="next"><h1>>></h1></button>
+      </div>
 
-  <div class="icons">
-    <img src="Bulbasaur.png" width="7%" onclick="imgSlider('Bulbasaur.png')">
-    <img src="pika3.png" width="7%" onclick="imgSlider('pika3.png')">
-    <img src="chari.png" width="7%" onclick="imgSlider('chari.png')">
-  </div>
 
-  <!-- <div class="allpoke">
-    <button onclick="previousPokemon()" class="prev"><h1><<</h1></button>
-    <div class="slider"></div>
-    <button onclick="nextPokemon()" class="next"><h1>>></h1></button>
-    </div> -->
-  
-  
-
-  <script src="app.js"></script>
-  </body>
-</html>
+      <script src="app.js"></script>
+    </body>
+    </html>

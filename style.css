@@ -330,19 +330,42 @@ height: 500px;
 
 @media (max-width:900px){
 
-  .warn{
-    display: block;
-  }
-  body{
+  
+   header{
     display: none;
-  } 
+   }
+   .content{
+    display: none;
+   }
+
+   .thumb{
+    display: none;
+   }
+
+   .allpoke{
+    display: none;
+   }
+   .warn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 40%;
+    left: 0%;
+    background-color: skyblue;
+    width: 100%;
+    border-radius: 12%;
+    color: white;
+  }
+  
 }
 
 @media (min-width: 901px){
   .warn{
-    display: none;
-  }
+   
+  display: none;
 }
-
+}
 
 

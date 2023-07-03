@@ -98,7 +98,7 @@ header ul li a{
 
 .content .textbox a{
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 70px;
   padding: 8px 20px;
   background: #fff;
   color: #111;
@@ -294,7 +294,7 @@ left: 0;
 display: block;
 width: 100%;
 height: 100%;
-background: linear-gradient(to bottom, rgba(176, 0, 0, 0.5), rgb(225, 222, 225));
+background: linear-gradient(to bottom, rgba(217, 151, 151, 0.5), rgb(225, 222, 225));
 z-index: 2;
 transition: 0.5s all;
 opacity: 0;
@@ -317,7 +317,7 @@ left: 0;
 .card .info{
 position: relative;
 z-index: 3;
-color: black;
+color: rgb(120, 119, 119);
 opacity: 0;
 transform: translateY(30px) ;
 transition: 0.5s all;

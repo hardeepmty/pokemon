@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
 body {
 font-family: Arial, sans-serif;
 text-align: center;
 background-color: #dbd8d2;
-font-size: 25px;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+
 }
 
 h1 {
@@ -24,7 +29,7 @@ margin-top: 30px;
 border: 1px solid #000000;
 justify-content: center;
 padding: 10px;
-width: 300px;
+width: 250px;
 }
 
 h2 {
@@ -32,9 +37,9 @@ margin-top: 0;
 }
 
 .card {
-background-color: #dbd9d9;
-border: 1px solid #000000;
-height: 400px;
+background-color: #fffbfb;
+border: 2px solid #000000;
+height: 300px;
 
 }
 
@@ -42,9 +47,19 @@ height: 400px;
 font-weight: bold;
 }
 #play-turn{
-    transition: all 0.4s;
+    transition: all 0.2s;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 #play-turn:hover{
-transform: scale(1.8);
+transform: scale(1.3);
     
 }

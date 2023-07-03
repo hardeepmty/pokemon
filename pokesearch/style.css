@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 :root {
     --clr-black: #1c1c1c;
@@ -31,7 +31,7 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--clr-black);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -42,11 +42,13 @@ button {
     background-color: transparent;
     border: 0;
     border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     min-height: 100vh;
     background-color: #7b7d7e;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {

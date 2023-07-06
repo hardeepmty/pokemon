@@ -9,10 +9,10 @@ body {
 
 #content-box {
   position: absolute;
-  top: 15px;
-  left: 8%;
-  width: 30%;
-  height: 350px;
+  top: 45%;
+  left: 10%;
+  width: 40%;
+  height: 380px;
   /* border: 10px solid lightgray; */
   border-radius: 2rem;
   /* background-color: green; */
@@ -25,7 +25,7 @@ body {
 }
 
 #pokemon-info {
-  width: 550px;
+  width: 600px;
   height: 500px;
   /* background-color: cyan; */
   text-align: center;
@@ -59,8 +59,8 @@ body {
 }
 
 #pokemon-info img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border: 1px solid black;
   border-radius: 10px;
   margin-top: 20px;
@@ -171,15 +171,15 @@ body {
 }
 
 #pokemon-description {
-  text-align: left;
-  width: 90%;
-  height: 100px;
+  text-align:center;
+  width: 80%;
+  height: 95px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
   border: none;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 25px;
   padding: 2px;
   font-size: 18px;
    overflow-y: auto;
@@ -189,44 +189,49 @@ body {
 .circle2{
   background: white;
   background: linear-gradient(to right bottom , rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
-  height: 20rem;
-  width: 20rem;
+  height: 18rem;
+  width: 30%;
   position: absolute;
-  border-radius: 20%;
+  border-radius: 15%;
 }
 
 .circle1{
-  top: 5%;
-  right: 6%;
+  top: 4%;
+  right: 15%;
   transition: 1s;
-  width: 20rem;
+  width: 30%;
 }
 
 .circle1 p{
-  margin-left: 8%;
-  margin-top: 30%;
+  margin-left: 13%;
+  margin-top: 19%;
   padding: 5%;
 }
 
 .circle1 h2{
   text-align: center;
+  /*margin-left: 22%;*/
 }
 
 
 .circle2{
-  bottom: 5%;
-  left: 5%;
+  top: 4%;
+  left: 15%;
   transition: 1s;
   text-align: center;
+  height:17rem;
 }
 
 .circle2 p{
-  margin-top: 30%;
-  padding: 5%;
+  margin-top: 19%;
+  padding: 8%;
 }
 
 #char{
-  width: 30%;
+  width: 12%;
+  position:absolute;
+  left:8%;
+  top: 13%;
 }
 
 .blu{
@@ -241,8 +246,8 @@ body {
 }
 
 #pika{
-  width: 8%;
+  width: 15%;
   position: absolute;
-  left: 35%;
-  top: 66.7%;
+  right: 6%;
+  top: 6%;
 }

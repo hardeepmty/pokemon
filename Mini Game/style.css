@@ -149,6 +149,30 @@ body{
    background: #444;
    color:#fff;
 }
+.home{
+   position: relative;
+   bottom: 30px;
+   nav-right: 20px;
+   width: 100%;
+   padding: 20px 20px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .home li a{
+   background-color: rgb(234, 206, 129);
+   border: none;
+   color: black;
+   border-radius: 40px;
+   padding: 8px 20px;
+   display: inline-block;
+   font-weight: 400;
+   margin-right: 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+ 
 
 
 @media (max-width:991px){

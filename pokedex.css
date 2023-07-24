@@ -266,3 +266,41 @@ body {
   opacity: 0;
   visibility: hidden;
 }
+
+header{
+  position: relative;
+  bottom: 30px;
+  left: 500px;
+  width: 100%;
+  padding: 40px 40px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'VT323', monospace;
+}
+header ul{
+  position: absolute;
+  left: 30%;
+  display: flex;
+}
+
+header ul li{
+  list-style: none;
+  transition: 0.5s;
+}
+
+header ul li:hover{
+  transform: translateY(-10px);
+}
+header ul li a{
+  background-color: rgb(234, 206, 129);
+  border: none;
+  color: black;
+  border-radius: 40px;
+  padding: 8px 20px;
+  display: inline-block;
+  font-weight: 800;
+  margin-right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

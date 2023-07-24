@@ -6,13 +6,10 @@ body{
 
 body{
   /* position: relative; */
-  width: 100%;
-  min-height: 100vh;
-  padding: 10px;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  transition: 0.5s;
   /* opacity: 0.5; */
   font-family: 'Montserrat', sans-serif;
 }
@@ -65,6 +62,7 @@ header ul li a{
 
 .content{
   position: relative;
+  margin-top:70px;
   width: 100%;
   display: flex;
   /* justify-content: space-between; */
@@ -98,7 +96,7 @@ header ul li a{
 
 .content .textbox a{
   display: inline-block;
-  margin-top: 70px;
+  margin-top: 60px;
   padding: 8px 20px;
   background: #fff;
   color: #111;
@@ -132,7 +130,7 @@ header ul li a{
 }
 .thumb{
   width: 35%;
-  position: absolute;
+  position: relative;
   left: 28%;
   bottom: 20px;
   transform: translateX(-50%);
@@ -157,7 +155,7 @@ header ul li a{
 }
 
 .sci{
-  position: absolute;
+  position:relative;
   top: 110%;
   right: 30px;
   transform: translateY(-50px);
@@ -179,7 +177,7 @@ header ul li a{
 }
 
 .change{
-  position: absolute;
+  position: relative;
   top: 75%;
   left: 10%;
  
@@ -188,8 +186,8 @@ header ul li a{
 .allpoke{
   width: 110%;
   display: flex;
-  position: absolute;
-  top: 105%;
+  position: relative;
+  top: 100%;
   left: 40%;
 }
 
@@ -334,6 +332,159 @@ top: 205%;
 left: 68%;
 width: 25%;
 height: 500px;
+}
+
+.footer-area {
+  margin-top: 100px;
+  padding: 10px 0;
+  background: rgb(234, 206, 129);
+  background: -moz-linear-gradient(left,  rgb(234, 206, 129) 0%, #4d79ae 100%);
+  background: -webkit-linear-gradient(left,   rgb(234, 206, 129) 0%,#496f9e 100%);
+  background: linear-gradient(to right,   rgb(234, 206, 129) 0%,#5680b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+  color:#0f0d0d;
+  position:relative;
+  border-radius: 40px 40px 0px 0px;
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.facebook{
+  padding: o;
+  width: 40px;
+  border-radius: 100%;
+}
+.single-footer {
+  width: 230px;
+}
+.single-footer:first-child {
+  width: 400px;
+}
+.single-footer h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.footer-social a {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer-social {
+  margin-top: 20px;
+}
+.single-footer ul {
+  list-style: none;
+}
+.single-footer ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+.single-footer ul li a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.single-footer ul li a i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.copy {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+.footer-wave-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 45px;
+  right: 0;
+  width: 100%;
+  overflow:hidden;
+}
+.footer-wave {
+  background-image: url('kokofooter-shape.png');
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200%;
+  background-size:50%;
+  background-position:bottom;
+  background-repeat:repeat-x;
+}
+
+.footer-animation{
+    -moz-animation: footer_wave 5s linear infinite;
+    -o-animation: footer_wave 5s linear infinite;
+    -webkit-animation: footer_wave 5s linear infinite;
+    left:auto;
+    right:0;
+}
+@-moz-keyframeskeyframes footer_wave{
+  0%{
+      -moz-transform:translateX(0%);
+  }
+  50%{
+    -moz-transform:translateX(25%);
+  }
+  100%{
+    -moz-transform:translateX(50%);
+  }
+}
+@-moz-keyframes footer_wave{
+  0%{
+      -moz-transform:translateX(0%);
+  }
+  50%{
+    -moz-transform:translateX(25%);
+  }
+  100%{
+    -moz-transform:translateX(50%);
+  }
+}
+
+@-o-keyframeskeyframes footer_wave{
+  0%{
+      -o-transform:translateX(0%);
+  }
+  50%{
+    -o-transform:translateX(25%);
+  }
+  100%{
+    -o-transform:translateX(50%);
+  }
+}
+
+@-webkit-keyframeskeyframes footer_wave{
+  0%{
+      -webkit-transform:translateX(0%);
+  }
+  50%{
+    -webkit-transform:translateX(25%);
+  }
+  100%{
+    -webkit-transform:translateX(50%);
+  }
 }
 
 .warn{

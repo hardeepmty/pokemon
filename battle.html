@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="battle.css">
 </head>
 <body>
+  <div class="preloader"></div>
   <h1>Pokemon Card Game</h1>
   <div id="game-container">
     <div id="player-hand">
@@ -16,7 +17,31 @@
   </div>
   <button id="play-turn"  >Play Turn</button>
   <p id="winner"></p>
-
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/_OLrjAWzUR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+      
+     
   <script src="battle.js"></script>
+   <script>
+        window.addEventListener("load",() => {
+           const loader = document.querySelector(".preloader");
+           loader.classList.add("preloader--hidden");
+          //loader.style.display = "none";//
+           loader.addEventListener("transitioned", () => {
+             documnent.body.removeChild(loader);
+           });
+          
+       })
+       </script>
+
 </body>
 </html>

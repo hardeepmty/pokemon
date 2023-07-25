@@ -507,6 +507,10 @@ height: 500px;
     display: none;
    }
 
+   footer{
+    display: none;
+   }
+
    .allpoke{
     display: none;
    }

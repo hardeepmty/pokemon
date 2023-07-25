@@ -5,6 +5,7 @@ body {
   background: linear-gradient(to right top,#65dfc9, #6cdbeb);
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 #content-box {

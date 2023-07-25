@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #0c67ae;
 }
@@ -26,32 +28,18 @@ body {
     border: 1px solid #0c67ae;
 }
 
-.back_mp button{
-    padding: 5px 10px;
-    font-size: 26px;
-    cursor: pointer;
-    font-family: sans-serif;
-    color: rgba(255, 255, 255, 0);
+.back_mp{
+    background-color: rgb(234, 206, 129);
+   border: none;
+   color: black;
+   border-radius: 40px;
+   padding: 8px 20px;
+   display: inline-block;
+   font-weight: 800;
+   margin-right: 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+ }
 
-    border-radius: 10px;
-    text-decoration: none;
-    
-    transition: all 0.4s ease;
 
-  }
-  .back_mp a{
-    padding: 5px 40px;
-    font-size: 20px;
-    cursor: pointer;
-    font-family: sans-serif;
-    color: white;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: #29282800;
-    transition: all 0.4s ease;
-    margin-top: 100%;
-}
-.back_mp a:hover{
-  background-color: rgba(255, 255, 255, 0.589);
-  color: rgb(0, 0, 0);
-}

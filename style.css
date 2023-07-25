@@ -532,5 +532,22 @@ height: 500px;
   display: none;
 }
 }
+.preloader{
+  background: beige url(giphy\ \(1\).gif) no-repeat center;
+  background-size: 10%;
+  top: 0;
+  left:0;
+  height: 100vh;
+  width:100%;
+  position: fixed;
+  z-index: 100;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+.preloader--hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
 
 
